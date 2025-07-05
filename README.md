@@ -1,8 +1,8 @@
-# 🔬 LangGraph Lab
+# LangGraph Lab
 
 A comprehensive LangGraph quickstart application demonstrating AI agent workflows with proper architecture and best practices. This project serves as a solid, well-architected foundation that developers can easily clone and extend with custom agentic application features.
 
-## 🌟 Features
+## Features
 
 - **Complete LangGraph Workflow Implementation**: Demonstrates stateful, multi-actor applications with conditional routing
 - **Research Agent System**: AI agents capable of web search, analysis, and synthesis
@@ -13,7 +13,7 @@ A comprehensive LangGraph quickstart application demonstrating AI agent workflow
 - **Interactive CLI**: Multiple ways to interact with the system
 - **Comprehensive Examples**: Detailed usage examples and demonstrations
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 langgraph-lab/
@@ -36,7 +36,7 @@ langgraph-lab/
 - **Text Processor**: Advanced text analysis and summarization
 - **Configuration System**: Centralized settings with environment variable support
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -107,7 +107,7 @@ LANGCHAIN_PROJECT=langgraph-lab
 - `MAX_ITERATIONS`: Maximum workflow iterations (default: 10)
 - `TIMEOUT_SECONDS`: Workflow timeout (default: 300)
 
-## 📖 Usage
+## Usage
 
 ### Command Line Interface
 
@@ -165,7 +165,7 @@ class CustomAgent(ToolAgent):
         return updated_state
 ```
 
-## 🛠️ Core Workflows
+## Core Workflows
 
 ### Research Workflow
 
@@ -183,7 +183,7 @@ The main workflow demonstrates:
 - `standard`: Comprehensive research with analysis
 - `deep`: Multi-iteration research with synthesis
 
-## 🔧 Tools and Integrations
+## Tools and Integrations
 
 ### Web Search Tool
 
@@ -198,7 +198,7 @@ The main workflow demonstrates:
 - **Sentiment Analysis**: Emotion and tone detection
 - **Entity Extraction**: Named entity recognition
 
-## 📊 Examples
+## Examples
 
 ### Basic Research
 ```python
@@ -226,7 +226,7 @@ search_tool = WebSearchTool()
 results = await search_tool.search("LangGraph tutorials", max_results=5)
 ```
 
-## 🧪 Testing
+## Testing
 
 Run the test suite:
 
@@ -241,7 +241,7 @@ pytest
 pytest --cov=src --cov-report=html
 ```
 
-## 📚 Development
+## Development
 
 ### Code Quality
 
@@ -273,7 +273,7 @@ flake8 src/ tests/ examples/
 3. Add to agent tool registry
 4. Update documentation
 
-## 🚀 Deployment
+## Deployment
 
 ### Docker (Optional)
 
@@ -299,7 +299,7 @@ export DEBUG="false"
 python main.py research "your query"
 ```
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -310,23 +310,23 @@ python main.py research "your query"
 7. Push to the branch (`git push origin feature/amazing-feature`)
 8. Open a Pull Request
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - [LangGraph](https://github.com/langchain-ai/langgraph) for the amazing workflow framework
 - [LangChain](https://github.com/langchain-ai/langchain) for the foundation
 - [OpenAI](https://openai.com/) for the language models
 
-## 📞 Support
+## Support
 
 - **Issues**: [GitHub Issues](https://github.com/harehimself/langgraph-lab/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/harehimself/langgraph-lab/discussions)
 - **Documentation**: Check the `examples/` directory for detailed usage examples
 
-## 🗺️ Roadmap
+## Roadmap
 
 - [ ] Add more specialized agents (analysis, writing, coding)
 - [ ] Implement persistent state storage
