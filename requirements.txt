@@ -1,0 +1,37 @@
+# Core LangGraph dependencies
+langgraph>=0.2.14
+langchain>=0.2.14
+langchain-openai>=0.1.17
+langchain-community>=0.2.12
+
+# HTTP requests and web scraping
+requests>=2.31.0
+beautifulsoup4>=4.12.2
+httpx>=0.25.0
+
+# Environment and configuration
+python-dotenv>=1.0.0
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+
+# Data processing
+pandas>=2.1.0
+numpy>=1.24.0
+
+# Utilities
+rich>=13.7.0
+click>=8.1.7
+colorama>=0.4.6
+
+# Development and testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+pytest-cov>=4.1.0
+black>=23.9.0
+isort>=5.12.0
+flake8>=6.1.0
+mypy>=1.6.0
+
+# Jupyter for examples
+jupyter>=1.0.0
+ipykernel>=6.25.0
